@@ -1,0 +1,23 @@
+name: Python Script Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+      - uses: snok/install-poetry@v1
+        with:
+          version: 1.8.3
+      - name: Install dependencies
+         run: poetry install
+      - name: Run my script
+        run: |
+            poetry run python  google_scholar_badge/main.py
