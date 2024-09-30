@@ -23,3 +23,9 @@ Can also view the open source code [here on replit](https://replit.com/@dexhunte
 
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.replit.app%2Fcitations%3Fuser%3D8Ez_u30AAAAJ)
 
+
+## Work In Progress (WIP)
+
+* deploy the service to heroku or other cloud services
+* more badges (hindex, i10index, etc.)
+* some tests
