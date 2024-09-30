@@ -17,7 +17,7 @@ jobs:
         with:
           version: 1.8.3
       - name: Install dependencies
-         run: poetry install
+        run: poetry install
       - name: Run my script
         run: |
-            poetry run python  google_scholar_badge/main.py
+          poetry run python  google_scholar_badge/main.py
